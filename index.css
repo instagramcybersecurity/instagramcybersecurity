@@ -1,0 +1,224 @@
+* {
+    padding: none;
+    margin: none;
+}
+
+#main {
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+#form_div {
+    padding-bottom: 20px;
+    width: 40vh;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    margin-top: 7.5vh;
+    border: 1px solid rgb(219, 219, 219);
+}
+
+#img_div {
+    cursor: pointer;
+    padding: 30px;
+    width: 54%;
+}
+
+img {
+    height: 100%;
+    width: 100%;
+}
+
+
+form {
+    width: 100%;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputs {
+    font-family: 'Segoe UI';
+    font-size: 11.5px;
+    color: black;
+    font-weight: normal;
+    margin-top: 5px;
+    border-radius: 3px;
+    width: 80%;
+    overflow: hidden;
+    background-color: rgb(250, 250, 250);
+    padding: 13px 0 7px 8px;
+    border: 1px solid rgb(219, 219, 219);
+}
+
+
+#button {
+    cursor: pointer;
+    margin-top: 15px;
+    font-size: 14px;
+    padding: 8px 10px;
+    width: 80%;
+    font-weight: bolder;
+    border: none;
+    border-radius: 8px;
+    background-color: #5abcff;
+    font-family: sans-serif;
+    color: white;
+}
+
+::placeholder {
+    text-align: left;
+    font-family: 'Segoe UI';
+    font-size: 12px;
+}
+
+
+#forgot_div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    width: 100%;
+}
+
+
+#text_divI {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    display: flex;
+}
+
+#text_divI span {
+    font-weight: 600;
+    font-size: 12px;
+    font-family: sans-serif;
+    color: rgb(115, 115, 115);
+}
+
+#text_divI div {
+    margin: 15px;
+    width: 30%;
+    height: 0;
+    border-top: 1px solid rgb(197 197 197);
+}
+
+
+#text_divII {
+    width: 45%;
+    margin-top: 20px;
+}
+
+#text_divII img {
+    height: 100%;
+    width: 100%;
+}
+
+#text_divIII {
+    margin-top: 10px;
+}
+
+#text_divIII a {
+    font-weight: lighter;
+    color: rgb(0, 55, 107);
+    font-size: 12px;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+#sign_div {
+    display: flex;
+    margin-top: 10px;
+    height: 7vh;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 40vh;
+    border: 1px solid rgb(219, 219, 219);
+}
+
+#sign_div span {
+    letter-spacing: 0.3px;
+    font-size: 14px;
+    font-family: 'Segoe UI';
+}
+
+#sign_div a {
+    text-decoration: none;
+    letter-spacing: 0.3px;
+    font-size: 14px;
+    font-family: 'Segoe UI';
+    cursor: pointer;
+    font-weight: 500;
+    color: rgb(0, 149, 246);
+}
+
+#s_span {
+    cursor: pointer;
+    font-weight: 500;
+    color: rgb(0, 149, 246);
+}
+
+#app_div {
+    width: 40vh;
+    margin-top: 20px;
+}
+
+#app_text_div {
+    justify-content: center;
+    display: flex;
+}
+
+#app_div span {
+    letter-spacing: 0.3px;
+    font-size: 13px;
+    font-family: sans-serif;
+}
+
+#app_div img {
+    height: 100%;
+    width: 100%;
+}
+
+.app_img_divs {
+    margin: 5px;
+    width: 35%;
+}
+
+#app_img_div_main {
+    margin-top: 5px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+#links_div {
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 50%;
+    margin-top: 20vh;
+}
+
+#links_div a {
+    margin: 5px;
+    letter-spacing: 0.3px;
+    color: rgb(115, 115, 115);
+    text-decoration: none;
+    font-family: 'Segoe UI';
+    font-size: 12px;
+}
+
+#links_div a:hover {
+    text-decoration: underline;
+}
